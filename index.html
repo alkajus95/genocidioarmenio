@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Genocidio Armenio | Exposición</title>
+    <style>
+        :root { --bg: #0a0a0c; --accent: #b71c1c; --text: #e0e0e0; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Helvetica', sans-serif; margin: 0; padding: 0; }
+        
+        header { height: 50vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; border-bottom: 5px solid var(--accent); }
+        h1 { font-size: 4.5rem; color: var(--accent); margin: 0; text-transform: uppercase; }
+        
+        .container { max-width: 900px; margin: 0 auto; padding: 40px; }
+        .section-box { display: flex; align-items: center; gap: 30px; margin-bottom: 50px; background: #141418; padding: 20px; border-radius: 15px; border: 1px solid #333; }
+        .img-gallery { width: 350px; height: 250px; background: #222; border-radius: 10px; overflow: hidden; flex-shrink: 0; }
+        img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+        img:hover { transform: scale(1.1); }
+
+        .extra-data { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
+        .card-small { background: #1a1a1f; padding: 20px; border-radius: 10px; border-top: 3px solid var(--accent); }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>1915: EL GENOCIDIO ARMENIO</h1>
+    <p>Una exposición sobre la memoria, la lucha y la resistencia.</p>
+</header>
+
+<div class="container">
+    
+    <!-- Bloque 1: El Contexto -->
+    <div class="section-box">
+        <div class="img-gallery"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9WLYWKrZBK-YuAxrq2EAmQQpdKOHbwDh41A&s" alt="Historia"></div>
+        <div>
+            <h2>¿Qué fue?</h2>
+            <p>Fue el exterminio sistemático de la población armenia dentro del Imperio Otomano. Entre 1915 y 1923, más de 1.5 millones de personas fueron asesinadas.</p>
+        </div>
+    </div>
+
+    <!-- Bloque 2: El Proceso -->
+    <div class="section-box" style="flex-direction: row-reverse;">
+        <div class="img-gallery"><img src="https://brecha.com.uy/wp-content/uploads/2015/04/32-Marcha-del-silencia-en-el-cincuentenario-del-genocidio-armenio-Foto-REPORTER-2.jpg" alt="Marchas"></div>
+        <div>
+            <h2>¿Cómo ocurrió?</h2>
+            <p>Se dividió en el arresto de la élite intelectual, la confiscación de bienes y las <strong>"marchas de la muerte"</strong> hacia el desierto de Siria, donde los desplazados morían de hambre y sed.</p>
+        </div>
+    </div>
+
+    <!-- Bloque 3: Datos adicionales -->
+    <div class="extra-data">
+        <div class="card-small">
+            <h3>El término "Genocidio"</h3>
+            <p>La palabra fue acuñada por Raphael Lemkin en 1944, tomando el caso de los armenios como ejemplo fundamental para el derecho internacional.</p>
+        </div>
+        <div class="card-small">
+            <h3>El Símbolo: Forget-Me-Not</h3>
+            <p>La flor "No me olvides" es el símbolo oficial. Sus cinco pétalos representan los cinco continentes donde la diáspora armenia se estableció.</p>
+        </div>
+    </div>
+
+    <!-- Bloque 4: System of a Down -->
+    <div class="section-box" style="margin-top: 50px;">
+        <div class="img-gallery" style="width: 150px; height: 150px;"><img src="https://www.rockandrollarmy.com/magazine/wp-content/uploads/2020/11/soad-aid_armenia.jpg" alt="SOAD"></div>
+        <div>
+            <h3>Dato Curioso: Voz global</h3>
+            <p>La banda <strong>System of a Down</strong> ha utilizado su fama mundial para exigir el reconocimiento del genocidio. En 2015, tocaron en Ereván para marcar el centenario, convirtiéndose en los embajadores culturales de esta tragedia histórica.</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
